@@ -1,110 +1,151 @@
 {
+    "id": {"S": "1"},
     "basics": {
-      "name": "Juliet Nwaeze",
-      "label": "Devops Eng",
-      "image": "",
-      "email": "julietnwaeze7@gmail.com",
-      "phone": "(234) 65940218",
-      "url": "https://julietnwaeze.com",
-      "summary": "A summary of Juliet Nwaeze…",
-      "location": {
-        "address": "84 Bis 2nd Drive",
-        "postalCode": "900108",
-        "city": "Abuja",
-        "countryCode": "NGR",
-        "region": "FCT"
-      },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "jeromejulie",
-        "url": "https://twitter.com/jeromejulie"
-      }]
+      "M": {
+        "name": {"S": "Juliet Nwaeze"},
+        "label": {"S": "Cloud Engineer"},
+        "email": {"S": "test@gmail.com"},
+        "phone": {"S": "+234-80-4596-2335"},
+        "url": {"S": "https"},
+        "summary": {"S": "Juliet is a Cloud Engineer with 6 months experience."},
+        "location": {
+          "M": {
+            "address": {"S": "84, Villa Estate"},
+            "postalCode": {"S": "900108"},
+            "city": {"S": "Abuja"},
+            "countryCode": {"S": "+234"},
+            "region": {"S": "FCT"}
+          }
+        },
+        "profiles": {
+          "L": [
+            {
+              "M": {
+                "network": {"S": "Twitter"},
+                "username": {"S": "juliet02"},
+                "url": {"S": "https://x.com/juliet02"}
+              }
+            }
+          ]
+        }
+      }
     },
-    "work": [{
-      "name": "ATL",
-      "position": "IT Head",
-      "url": "https://ATL.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
+    "work": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "Sun ATL"},
+            "position": {"S": "IT Support"},
+            "startDate": {"S": "2019-08-07"},
+            "endDate": {"S": "2023-01-01"},
+            "summary": {"S": "Information Technology"},
+            "highlights": {
+              "L": [
+                {"S": "Star Club Awardee"}
+              ]
+            }
+          }
+        }
       ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
+    },
+    "education": {
+      "L": [
+        {
+          "M": {
+            "institution": {"S": "AAU"},
+            "url": {"S": "https://www.ui.edu.ng/"},
+            "area": {"S": "Computer Science"},
+            "studyType": {"S": "Bachelor"},
+            "startDate": {"S": "2014-04-10"},
+            "endDate": {"S": "2019-02-04"},
+            "score": {"S": "4.0"},
+            "courses": {
+              "L": [
+                {"S": "PCH - CLI"}
+              ]
+            }
+          }
+        }
       ]
-    }],
-    "education": [{
-      "institution": "MOUAU",
-      "url": "https://MOUAU.com/",
-      "area": "COMPUTER SCIENCE",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2015-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
+    },
+    "awards": {
+      "L": [
+        {
+          "M": {
+            "title": {"S": "Award"},
+            "date": {"S": "2023-05-14"},
+            "awarder": {"S": "Sun ATL"},
+            "summary": {"S": "Star Club"}
+          }
+        }
       ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "AWS Certified Cloud Practitioner",
-      "date": "2021-11-07",
-      "issuer": "AWS",
-      "url": "https://www.credly.com/badges/ec27c386-91a5-4741-8a6d-15acbefb8220/linked_in_profile"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Engineering",
-      "level": "Beginner",
-      "keywords": [
-        "AWS",
-        "Cloud formation",
-        "Terraform"
+    },
+    "certificates": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "Cloud Practitioner"},
+            "date": {"S": "2021-11-07"},
+            "issuer": {"S": "AWS"},
+            "url": {"S": "https://certificate.com"}
+          }
+        }
       ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Tigers",
-        "Pigeon"
+    },
+    "skills": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "Cloud Engineer"},
+            "level": {"S": "Beginner"},
+            "keywords": {
+              "L": [
+                {"S": "Terraform"},
+                {"S": "Cloudformation"},
+                {"S": "Python"}
+              ]
+            }
+          }
+        }
       ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    }]
+    },
+    "languages": {
+      "L": [
+        {
+          "M": {
+            "language": {"S": "English"},
+            "fluency": {"S": "L2"}
+          }
+        }
+      ]
+    },
+    "interests": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "Sports"},
+            "keywords": {
+              "L": [
+                {"S": "Manchester United"},
+                {"S": "Premier League"}
+              ]
+            }
+          }
+        }
+      ]
+    },
+  
+    "projects": {
+      "L": [
+        {
+          "M": {
+            "name": {"S": "Project"},
+            "startDate": {"S": "2019-01-01"},
+            "endDate": {"S": "2021-01-01"},
+            "description": {"S": "Description..."},
+            "url": {"S": "https://project.com/"}
+          }
+        }
+      ]
+    }
   }
