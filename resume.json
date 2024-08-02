@@ -1,0 +1,110 @@
+{
+    "basics": {
+      "name": "Juliet Nwaeze",
+      "label": "Devops Eng",
+      "image": "",
+      "email": "julietnwaeze7@gmail.com",
+      "phone": "(234) 65940218",
+      "url": "https://julietnwaeze.com",
+      "summary": "A summary of Juliet Nwaeze…",
+      "location": {
+        "address": "84 Bis 2nd Drive",
+        "postalCode": "900108",
+        "city": "Abuja",
+        "countryCode": "NGR",
+        "region": "FCT"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "jeromejulie",
+        "url": "https://twitter.com/jeromejulie"
+      }]
+    },
+    "work": [{
+      "name": "ATL",
+      "position": "IT Head",
+      "url": "https://ATL.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "MOUAU",
+      "url": "https://MOUAU.com/",
+      "area": "COMPUTER SCIENCE",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2015-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2021-11-07",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/ec27c386-91a5-4741-8a6d-15acbefb8220/linked_in_profile"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Engineering",
+      "level": "Beginner",
+      "keywords": [
+        "AWS",
+        "Cloud formation",
+        "Terraform"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Tigers",
+        "Pigeon"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }
