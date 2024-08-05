@@ -3,3 +3,4 @@ package/
 *.tfstate
 *.tfstate.backup
 aws/
+*.zip
