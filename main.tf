@@ -52,9 +52,14 @@ resource "aws_iam_policy" "iam_policy_for_resume_cloud" {
 
 }
 
-resource "aws_iam_role_policy_attachment" "lambda_get_item_policy" {
+resource "aws_iam_role_policy_attachment" "lambda_default_policy" {
   role       = aws_iam_role.lambda_get_item.name
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+}
+
+resource "aws_iam_role_policy_attachment" "lambda_get_item_policy" {
+  role       = aws_iam_role.lambda_get_item.name
+  policy_arn = aws_iam_policy.iam_policy_for_resume_cloud.arn
 }
 
 # Lambda Function URL
