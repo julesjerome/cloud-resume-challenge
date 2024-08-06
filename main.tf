@@ -40,7 +40,7 @@ resource "aws_iam_policy" "iam_policy_for_resume_cloud" {
           {
             "Effect" : "Allow",
             "Action" : [
-              "dynamodb: GetItem"
+              "dynamodb:GetItem"
             ],
             "Resource" : "arn:aws:dynamodb:*:*:table/resume-cloud"
           }
