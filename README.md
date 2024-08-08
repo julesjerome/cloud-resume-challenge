@@ -119,11 +119,11 @@ terraform apply
  - Confirm that your GitHub account has permission to run GitHub Actions.
  - When you open your project repository on GitHub, you should see an Actions tab. This indicates that GitHub Actions is available for your repository.
 
- ![githubactions](images/github-action.png)
+ ![githubactions](images/github-action.PNG)
 
 - Click on it and click on setup your workflow yourself
 
-![Workflow](images/workflow.png)
+![Workflow](images/workflow.PNG)
 
 ## Open the Actions Tab:
 - In your GitHub repository, go to the Actions tab. You may see a sample YAML file here.
@@ -131,7 +131,7 @@ terraform apply
 - Create a new file named resume.yml (or any name that fits your project) in the .github/workflows/ directory of your project.
 - You can place this file in the .github/workflows/ folder in your code base.
 
-![ymlfile](images/ymlfile.png)
+![ymlfile](images/ymlfile.PNG)
 
 ## Access the API:
 - Once your API is deployed, you can access it using the Function URL.
@@ -153,7 +153,7 @@ https://{function-url}/resume/{id}
 - Click Send.
 - You should get a response with the resume data in JSON format and a status code of 200, indicating the API is working.
 
-![APIpostman](images/postman.png)
+![APIpostman](images/postman.PNG)
 
 ## Clean Up
 To delete all the AWS resources created by this project, run:
