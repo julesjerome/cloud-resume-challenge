@@ -1,5 +1,5 @@
 
-![J's Architecture Diagram](images/Architecture.png)
+![J's Architecture Diagram](./images/Architecture.PNG)
 
 ## Resume Fetcher API
 This project establishes an AWS Lambda function to retrieve resume data from a DynamoDB table and makes it accessible through a Function URL. The entire setup and deployment process is automated using Terraform and GitHub Actions.
